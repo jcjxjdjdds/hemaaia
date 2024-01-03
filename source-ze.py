@@ -10,9 +10,6 @@ bot = telebot.TeleBot(Config.TG_BOT_TOKEN)
 p3 = types.InlineKeyboardMarkup()
 p5 = types.InlineKeyboardButton(text = "🔱 𝐒𝐎𝐔𝐑𝐂𝐄 • 𝐙𝐄 🔱",url="t.me/Source_Ze")
 A1 = types.InlineKeyboardButton(text = "اوامر الحماية .",callback_data="A1")
-A2 = types.InlineKeyboardButton(text = "اوامر التسلية .",callback_data="A2")
-A3 = types.InlineKeyboardButton(text = "اوامر الالعاب .",callback_data="A3")
-A4 = types.InlineKeyboardButton(text = "اوامر الموسيقى ",callback_data="A4")
 
 @bot.message_handler(commands=['start', 'help'])
 def send_welcome(message):
