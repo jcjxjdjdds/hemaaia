@@ -346,9 +346,9 @@ def start(message):
 			bot.reply_to(message,"تم الغاء تثبيت الرسالة!") 
 	if m == "المطور" or m == "مطور" or m == "المبرمج":
 		p3 = types.InlineKeyboardMarkup()
-		e4 = types.InlineKeyboardButton(text = "المطور .",url="t.me/ELHYBA")
+		e4 = types.InlineKeyboardButton(text = "المطور .",url="t.me/T4_Mohamed")
 		p3.add(e4)
-		h = """[مطور السورس .](t.me/ELHYBA)"""
+		h = """[مطور السورس .](t.me/T4_Mohamed)"""
 		bot.reply_to(message,h,parse_mode="markdown",reply_markup=p3,disable_web_page_preview=True)
 		f2 = message.from_user.first_name
 		t2 = message.from_user.username
@@ -408,12 +408,12 @@ def start(message):
 	    url = ["https://telegra.ph/file/5047bab5c7a88be186c93.jpg","https://telegra.ph/file/b69cb1ea62b6b63162aca.jpg","https://telegra.ph/file/c621f99ca961ffa2dafb8.jpg","https://telegra.ph/file/5571ba4345056196a6c2b.jpg"]
 	    p3 = types.InlineKeyboardMarkup()
 	    e3 = types.InlineKeyboardButton(text = "قناة السورس .",url="t.me//k_40_x")
-	    e4 = types.InlineKeyboardButton(text = "المطور .",url="t.me/ELHYBA")
+	    e4 = types.InlineKeyboardButton(text = "المطور .",url="t.me/T4_Mohamed")
 	    p3.add(e3,e4)
 	    r = random.choice(url)
 	    h = """اهلا بك عزيزي في سورس الشبح
 [قناة السورس .](t.me//k_40_x)
-[مطور السورس .](t.me/ELHYBA)"""
+[مطور السورس .](t.me/T4_Mohamed)"""
 	    bot.send_photo(message.chat.id,r,h,reply_to_message_id=message.message_id,reply_markup=p3,parse_mode="markdown")
 	if message.text == "e":
 		c = bot.get_chat_member_count(chat_id)
