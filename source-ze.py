@@ -453,12 +453,8 @@ def start(message):
 		p3 = types.InlineKeyboardMarkup()
 		p5 = types.InlineKeyboardButton(text = "🔱 𝚂𝙾𝚄𝚁𝙲𝙴 𝙳𝙰𝚁𝙺� 🔱",url="t.me//k_40_x")
 		A1 = types.InlineKeyboardButton(text = "اوامر الحماية .",callback_data="A1")
-		A2 = types.InlineKeyboardButton(text = "اوامر التسلية .",callback_data="A2")
-		A3 = types.InlineKeyboardButton(text = "اوامر الالعاب .",callback_data="A3")
-		A4 = types.InlineKeyboardButton(text = "اوامر الموسيقى ",callback_data="A4")
-		p3.add(A1,A2)
-		p3.add(A3,A4)
-		p3.add(p5)
+		p3.add(A1)
+	
 		f2 = message.from_user.first_name 
 		t2 = message.from_user.username
 		bot.reply_to(message,text="""*اهلا بك عزيزي - *[{}](t.me/{})،
